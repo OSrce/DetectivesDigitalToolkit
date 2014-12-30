@@ -1,0 +1,29 @@
+<!-- Default home page -->
+
+<h1 id="greeting">Hello</h1>
+
+<script>
+require([
+             'ddt/myModule','socketio'
+        ], function (myModule) {
+            myModule.setText('greeting', 'Hello Dojo!');
+
+            setTimeout(function () {
+                myModule.restoreText('greeting');
+            }, 3000);
+        });
+
+
+</script>
+
+
+<div>
+
+
+
+
+
+
+
+
+</div>
