@@ -1,8 +1,8 @@
 {
   "name": "digitalDetectivesToolkit",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "Tools for network investigations",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.5",
@@ -27,11 +27,29 @@
     "start": "node app.js",
     "debug": "node debug app.js"
   },
-  "main": "app.js",
+  "node-main": "app.js",
+  "main": "splash.html", 
   "repository": {
     "type": "git",
-    "url": "git://github.com/compadmin/digitalDetectivesToolkit.git"
+    "url": " git@github.com:OSrce/DigitalDetectivesToolkit.git"
   },
-  "author": "compadmin",
-  "license": ""
+  "window": {
+    "title": "Digital Detective's Toolkit",
+    "toolbar": true,
+    "frame": false,
+    "width": 800,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  },
+
+
+  "author": "OSrce LLC",
+  "license": "BSD"
 }
