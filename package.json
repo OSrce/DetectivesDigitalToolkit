@@ -1,8 +1,8 @@
 {
-  "name": "digitalDetectivesToolkit",
+  "name": "detectivesDigitalToolkit",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "iojs - sails.js - node-webkit app for assisting in network aspects of investigations.",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.5",
@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compadmin/digitalDetectivesToolkit.git"
+    "url": "git://github.com/compadmin/detectivesDigitalToolkit.git"
   },
-  "author": "compadmin",
-  "license": ""
+  "author": "Jonathan Reifer, OSrce LLC",
 }
+  "license": "LicenseRef-LICENSE"
